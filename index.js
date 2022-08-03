@@ -38,8 +38,7 @@ document.querySelector(".tira").addEventListener("click", () => {
     if (difensori <= 0) {
         window.alert("l'attaccante ha già vinto!");
         return;
-    }
-    else if (attaccanti <= 1) {
+    } else if (attaccanti <= 1) {
         window.alert("ti servono almeno 2 truppe per attaccare!");
         return;
     }
@@ -51,20 +50,16 @@ document.querySelector(".tira").addEventListener("click", () => {
     let def_len = 0;
     if (attaccanti >= 4) {
         atk_len = 3;
-    }
-    else if (attaccanti === 3) {
+    } else if (attaccanti === 3) {
         atk_len = 2;
-    }
-    else if (attaccanti === 2) {
+    } else if (attaccanti === 2) {
         atk_len = 1;
     }
     if (difensori >= 3) {
         def_len = 3;
-    }
-    else if (difensori === 2) {
+    } else if (difensori === 2) {
         def_len = 2;
-    }
-    else if (difensori === 1) {
+    } else if (difensori === 1) {
         def_len = 1;
     }
     for (let i = 0; i < atk_len; i++) {

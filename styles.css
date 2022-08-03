@@ -3,35 +3,62 @@ img {
 }
 
 span {
-    margin-left: 15px;
-    font-size: 2em;
+    font-size: 4em;
 }
 
 td {
-    width: 119px;
-    height: 119px;
+    width: 250px;
+    height: 250px;
 }
 
 input {
-    width: 167px;
-    height: 30px;
+    width: 272px;
+    height: 60px;
     font-size: 2em;
     margin: 5px;
 }
 
 button {
-    margin-left: 145px;
-    margin-top: 20px;
-    font-size: 2em;
-    padding: 15px;
+    font-size: 3em;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.reset {
-    margin: 0;
-    font-size: 1em;
-    padding: 0;
+table {
+    margin-left: 100px;
 }
 
 .def_label {
-    margin-left: 38px;
+    position: relative;
+    left: 30px;
+    color: #000066;
+}
+
+.reset {
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+.atk_label {
+    margin-left: 100px;
+    color: #660000;
+}
+
+.atk_input {
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #ffeeee;
+}
+
+.def_input {
+    background-color: #eeeeff;
+}
+
+.tira {
+    margin-left: 420px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
